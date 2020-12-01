@@ -1,0 +1,52 @@
+body {
+  background-color: #f3eff9;
+  color: #779ca8;
+}
+
+.sale-display {
+  background-color: #ffe7fe;
+  padding: 1em;
+}
+
+.sale-display h1 {
+  font-size: 20px;
+  justify-content: center;
+  color: black;
+}
+
+.search-display {
+  background-color: #f3eff9;
+}
+nav {
+  background-color: #779ca8;
+}
+
+nav h1 {
+  color: #f3eff9;
+}
+
+nav a {
+  color: #34675c;
+}
+
+.hero-background-img {
+  position: relative;
+  background: rgba(0, 0, 0, 0.7);
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.hero-background-img:after {
+  content: "";
+  position: absolute;
+  background-image: url("cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 50%;
+}
