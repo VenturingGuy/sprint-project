@@ -178,6 +178,10 @@ nav a {
 	background: rgba(0, 0, 0, 0.6);
 }
 
+#myCarousel {
+  padding: 1em;
+  margin: 3em;
+}
 h2 {
   color: black;
 }
