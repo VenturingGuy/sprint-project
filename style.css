@@ -3,6 +3,7 @@ body {
   color: #779ca8;
 }
 
+/* for some reason, this previously didn't work */
 .sale-display {
   background-color: #f0fffd;
   padding: 1em;
