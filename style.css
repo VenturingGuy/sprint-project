@@ -3,7 +3,7 @@ body {
   color: #779ca8;
 }
 
-/* for some reason, this previously didn't work */
+
 .sale-display {
   background-color: #f0fffd;
   padding: 1em;
@@ -29,6 +29,37 @@ body {
 .search-display a {
   color: #4a4453;
 }
+
+.right-display {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-control, .input-group-append {
+  position: relative;
+  top: 10px;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.input-group-append {
+  height: 50%;
+}
+
 
 #store-nav {
   background-color: #34675c;
@@ -178,7 +209,7 @@ nav a {
 	background: rgba(0, 0, 0, 0.6);
 }
 
-/* changes appear only to take effect here when I comment? */
+
 #myCarousel {
   padding: 1em;
   margin: 3em;
