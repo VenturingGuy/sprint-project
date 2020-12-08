@@ -3,6 +3,13 @@ body {
   color: #779ca8;
 }
 
+.contact-background, .user-form {
+  background-color: white;
+  border: 16px;
+  margin: 3em;
+  padding: 2em;
+}
+
 
 .sale-display {
   background-color: #f0fffd;
